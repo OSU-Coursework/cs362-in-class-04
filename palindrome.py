@@ -3,3 +3,4 @@ def palindrome(_str):
         return _str == _str[::-1]
     except TypeError:
         print("Passed value was not a string... aborted!")
+        return -1
